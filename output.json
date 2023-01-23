@@ -1,0 +1,138 @@
+[
+    {
+        "sequence": "12 Biggest Cloud Providers by Market Share in the World",
+        "labels": [
+            "Very Good",
+            "Good",
+            "Nuetral",
+            "Bad",
+            "Very Bad"
+        ],
+        "scores": [
+            0.45356208086013794,
+            0.3792036771774292,
+            0.12042158097028732,
+            0.03205239772796631,
+            0.014760345220565796
+        ]
+    },
+    {
+        "sequence": "Microsoft Kicks Off Tech Earnings Set to Slump Most Since 2016",
+        "labels": [
+            "Bad",
+            "Very Bad",
+            "Good",
+            "Nuetral",
+            "Very Good"
+        ],
+        "scores": [
+            0.6345193982124329,
+            0.31553125381469727,
+            0.024094747379422188,
+            0.016448235139250755,
+            0.009406311437487602
+        ]
+    },
+    {
+        "sequence": "Stock Market Rallies As Tech Leads Ahead Of These Big Earnings Reports",
+        "labels": [
+            "Good",
+            "Very Good",
+            "Nuetral",
+            "Bad",
+            "Very Bad"
+        ],
+        "scores": [
+            0.5186682939529419,
+            0.3804217278957367,
+            0.06689117103815079,
+            0.02239604853093624,
+            0.011622731573879719
+        ]
+    },
+    {
+        "sequence": "Wells Fargo Steps Back From Mortgage Market",
+        "labels": [
+            "Bad",
+            "Good",
+            "Very Bad",
+            "Very Good",
+            "Nuetral"
+        ],
+        "scores": [
+            0.4205203354358673,
+            0.2675699293613434,
+            0.14275431632995605,
+            0.11471961438655853,
+            0.05443577095866203
+        ]
+    },
+    {
+        "sequence": "2 Top Cybersecurity Stocks to Buy in January",
+        "labels": [
+            "Good",
+            "Very Good",
+            "Nuetral",
+            "Bad",
+            "Very Bad"
+        ],
+        "scores": [
+            0.5091536641120911,
+            0.41142162680625916,
+            0.07147634774446487,
+            0.0053323558531701565,
+            0.002615948673337698
+        ]
+    },
+    {
+        "sequence": "How Climate and Energy Crises Are Giving New Life to Nuclear Power",
+        "labels": [
+            "Nuetral",
+            "Very Good",
+            "Good",
+            "Bad",
+            "Very Bad"
+        ],
+        "scores": [
+            0.41205283999443054,
+            0.24442671239376068,
+            0.24112515151500702,
+            0.06796436011791229,
+            0.03443088009953499
+        ]
+    },
+    {
+        "sequence": "Stock Market Investing Action Plan: Tesla, Chevron, Microsoft And A Blue Wave Of Earnings",
+        "labels": [
+            "Good",
+            "Very Good",
+            "Nuetral",
+            "Bad",
+            "Very Bad"
+        ],
+        "scores": [
+            0.5134531259536743,
+            0.4410974979400635,
+            0.0330008827149868,
+            0.007809065282344818,
+            0.0046394020318984985
+        ]
+    },
+    {
+        "sequence": "Weekly Roundup",
+        "labels": [
+            "Good",
+            "Very Good",
+            "Nuetral",
+            "Bad",
+            "Very Bad"
+        ],
+        "scores": [
+            0.44246232509613037,
+            0.3357202112674713,
+            0.14010047912597656,
+            0.05389896780252457,
+            0.027818014845252037
+        ]
+    }
+]
