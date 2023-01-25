@@ -31,6 +31,20 @@ def GetSentiment(input_data:str):
     #Perform analysis with the classifier of the sequence using the given labels.
     return classifier(input_data, candidate_labels)
 
+def GetSummationSentiment(sentiment):
+    #Store the summation of each value in the dict
+    labels = dict.fromkeys(candidate_labels)
+    labels = {key: float(0) for key,value in labels.items()}
+    n = len(sentiment)
+
+    for prediction in sentiment:
+        for x in range(len(prediction['labels'])):
+            labels[prediction['labels'][x]] += prediction['scores'][x]
+        
+    #Average out the values
+    labels = {key: value/n for key,value in labels.items()}
+    return labels
+
 if __name__ == "__main__":
     output = GetSentiment("MSFT")
     #Save the output
