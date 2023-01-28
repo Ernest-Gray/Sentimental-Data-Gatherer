@@ -45,6 +45,22 @@ def GetSummationSentiment(sentiment):
     labels = {key: value/n for key,value in labels.items()}
     return labels
 
+import matplotlib.pyplot as plt
+def GetSentimentPlot(sentiment, title="Sentiment"):
+    
+    # Extract the keys and values from the dictionary
+    x = list(sentiment.keys())
+    y = list(sentiment.values())
+
+    # Create the chart
+    plt.bar(x, y)
+
+    # Add labels and title
+    plt.xlabel('Labels')
+    plt.ylabel('Values')
+    plt.title(title)
+    return plt
+
 if __name__ == "__main__":
     output = GetSentiment("MSFT")
     #Save the output
